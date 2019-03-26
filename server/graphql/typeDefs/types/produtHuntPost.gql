@@ -1,0 +1,9 @@
+type ProductHuntPost {
+    id: ID
+    name: String
+    tagline: String
+    screenshotUrl: String
+    upvotes: Int
+    commentsCount: Int
+    makersCount: Int
+}

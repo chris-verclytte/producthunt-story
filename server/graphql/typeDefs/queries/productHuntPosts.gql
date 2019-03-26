@@ -1,0 +1,4 @@
+extend type Query {
+  "List the ProductHunts posts according to provided parameters"
+  productHuntPosts(page: Int, perPage: Int, daysAgo: Int): [ProductHuntPost]
+}

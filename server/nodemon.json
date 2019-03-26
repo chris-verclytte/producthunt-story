@@ -1,0 +1,18 @@
+{
+  "verbose": true,
+  "restartable": "rs",
+  "ignore": [
+    "*.test.js",
+    ".git",
+    "node_modules/**/node_modules"
+  ],
+  "watch": [
+    "./datasources",
+    "./index.js",
+    "./.env"
+  ],
+  "exec": "node --inspect=0.0.0.0:4000 ./index.js",
+  "ext": "js json gql",
+  "delay": "2500",
+  "legacyWatch": true
+}
